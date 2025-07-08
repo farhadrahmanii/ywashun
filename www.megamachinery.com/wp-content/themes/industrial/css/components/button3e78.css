@@ -1,0 +1,108 @@
+/* ## Button */
+.btn,
+.button {
+  background-color: #fab702;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  transition: background-color .2s, color .2s;
+  white-space: nowrap; }
+  .rev_slider_wrapper .btn, .rev_slider_wrapper
+  .button {
+    transition: .2s background-color, .3s color !important; }
+  .btn:hover, .btn:focus,
+  .button:hover,
+  .button:focus {
+    background-color: #ffcc43;
+    color: #fff; }
+
+.btn:not(.btn-minimal):not(.btn-xs) {
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 500px) {
+    .btn:not(.btn-minimal):not(.btn-xs) {
+      width: auto; } }
+
+.btn,
+.btn.btn-md,
+.button {
+  font-size: 12px;
+  padding: 11px 28px; }
+
+.btn.btn-sm,
+.woocommerce-Message .button {
+  font-size: 11px;
+  padding: 9px 21px; }
+
+.btn.btn-lg {
+  font-size: 14px;
+  padding: 14px 31px; }
+
+.btn.btn-wide {
+  font-size: 14px;
+  padding: 9px 34px; }
+
+.btn.btn-xs {
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  padding: 3px 11px;
+  text-transform: none; }
+
+/* ### Button Minimal */
+.btn.btn-minimal {
+  background: none !important;
+  color: #fab702;
+  padding-left: 0;
+  padding-right: 0; }
+  .btn.btn-minimal:hover, .btn.btn-minimal:focus {
+    color: #ffcc43; }
+
+/* ### Button Gradient */
+.btn.btn-gradient {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), transparent 18px);
+  background-color: #fab702;
+  color: #fff; }
+  .btn.btn-gradient:hover, .btn.btn-gradient:focus {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), transparent 18px);
+    background-color: #ffcc43; }
+
+/* ### Button Dark */
+.btn.btn-dark {
+  background-color: #242424; }
+  .btn.btn-dark:hover, .btn.btn-dark:focus {
+    color: #242424;
+    background-color: #fff; }
+
+/* ### Button Light */
+.btn.btn-light {
+  background-color: #fff;
+  color: #242424; }
+  .btn.btn-light:hover, .btn.btn-light:focus {
+    color: #fff;
+    background-color: #242424; }
+
+/* ### Button Shadow */
+.btn.btn-shadow {
+  overflow: visible; }
+
+.btn.btn-shadow:after {
+  border-color: #595959 transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 0;
+  bottom: 3px;
+  content: "";
+  position: absolute;
+  right: -4px;
+  width: 0;
+  height: 0;
+  width: 0; }
+
+.btn-shadow {
+  z-index: 1; }
